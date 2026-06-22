@@ -153,12 +153,15 @@ Bilddatei unter **gleichem Namen** ersetzt, bekommen Besucher weiter die alte Ve
 
 ## Lizenz / Status
 
-**Proprietär — alle Rechte vorbehalten.** Copyright © 2026 Eckert · Preisser.
+**Proprietär — alle Rechte vorbehalten.** Copyright © 2026 **Moritz Felix Becker**.
 
-Dies ist ein privates, kommerzielles Projekt und **kein Open-Source-Release**. Quellcode,
-Texte, Bilder und Designs — insbesondere die Marken „ZANKTUM", „ZANKTUM VILLAS",
-„Z-Cleopatra" sowie die Kunstwerke von Margarete Eckert-Preisser — sind urheberrechtlich
-geschützt. Ohne vorherige ausdrückliche schriftliche Genehmigung ist jede Nutzung,
-Vervielfältigung, Verbreitung oder Bearbeitung untersagt.
+Die Rechte am **Quellcode** und an der technischen Umsetzung liegen privat und ausschließlich
+bei Moritz Felix Becker — auch wenn die Arbeit im Rahmen eines Projekts für Eckert · Preisser
+entstanden ist. Der Code darf **nur mit ausdrücklicher Zustimmung von Moritz Felix Becker**
+verändert, weiterverwendet oder weitergegeben werden. Dies ist **kein Open-Source-Release**.
 
-Vollständige Bedingungen in der Datei [`LICENSE`](LICENSE). Kontakt: info@sanctumvillas.com
+**Ausgenommen** sind Inhalte und Marken Dritter — insbesondere die Marken „ZANKTUM",
+„ZANKTUM VILLAS", „Z-Cleopatra" sowie die Kunstwerke von Margarete Eckert-Preisser; diese
+verbleiben bei Eckert · Preisser bzw. den jeweiligen Rechteinhabern.
+
+Vollständige Bedingungen in der Datei [`LICENSE`](LICENSE).

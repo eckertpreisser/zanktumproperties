@@ -1,43 +1,53 @@
-Copyright (c) 2026 Eckert · Preisser. Alle Rechte vorbehalten. / All rights reserved.
+Copyright (c) 2026 Moritz Felix Becker. Alle Rechte vorbehalten. / All rights reserved.
 
 PROPRIETÄRE SOFTWARE — KEINE OPEN-SOURCE-LIZENZ
 
-Dieses Repository und sein gesamter Inhalt (Quellcode, Texte, Bilder, Grafiken,
-Designs, Marken und sonstige Materialien — insbesondere die Marken „ZANKTUM",
-„ZANKTUM VILLAS", „Z-Cleopatra" sowie die abgebildeten Kunstwerke von Margarete
-Eckert-Preisser) sind urheberrechtlich geschützt und Eigentum von Eckert · Preisser
-bzw. der jeweiligen Rechteinhaber.
+Die Rechte am Quellcode, an der Software-Implementierung und am technischen Aufbau
+dieses Repositories liegen privat und ausschließlich bei
+
+    Moritz Felix Becker.
+
+Dies gilt unabhängig davon, dass die Arbeit im Rahmen eines Auftrags bzw. Projekts
+für Eckert · Preisser entstanden ist. Der Code darf nur mit ausdrücklicher
+Zustimmung von Moritz Felix Becker verändert, weiterverwendet oder weitergegeben
+werden.
 
 Es wird KEINE Lizenz zur Nutzung gewährt. Ohne vorherige ausdrückliche schriftliche
-Genehmigung des Rechteinhabers ist es untersagt,
+Genehmigung von Moritz Felix Becker ist es untersagt,
 
-  - den Code oder Inhalt zu kopieren, zu vervielfältigen oder zu verbreiten,
-  - abgeleitete Werke zu erstellen,
-  - den Code oder Inhalt öffentlich zugänglich zu machen, weiterzugeben,
-    zu verkaufen, zu vermieten oder zu unterlizenzieren,
-  - die Inhalte ganz oder teilweise für eigene oder fremde Projekte zu verwenden.
+  - den Code zu kopieren, zu vervielfältigen oder zu verbreiten,
+  - den Code zu verändern oder abgeleitete Werke zu erstellen,
+  - den Code öffentlich zugänglich zu machen, weiterzugeben, zu verkaufen,
+    zu vermieten oder zu unterlizenzieren.
 
-Das Repository wird ausschließlich zu internen Entwicklungs-, Sicherungs- und
-Deployment-Zwecken für die Websites von Eckert · Preisser bereitgestellt.
+INHALTE UND MARKEN DRITTER: Texte, Bilder, Marken und Kunstwerke — insbesondere die
+Marken „ZANKTUM", „ZANKTUM VILLAS", „Z-Cleopatra" sowie die abgebildeten Kunstwerke
+von Margarete Eckert-Preisser — sind hiervon ausgenommen und verbleiben bei
+Eckert · Preisser bzw. den jeweiligen Rechteinhabern.
 
 ----------------------------------------------------------------------
 
 PROPRIETARY SOFTWARE — NOT OPEN SOURCE
 
-This repository and all of its contents (source code, texts, images, graphics,
-designs, trademarks and other materials — in particular the marks "ZANKTUM",
-"ZANKTUM VILLAS", "Z-Cleopatra" and the depicted artworks by Margarete
-Eckert-Preisser) are protected by copyright and owned by Eckert · Preisser or the
-respective rights holders.
+The rights to the source code, the software implementation and the technical
+architecture of this repository belong privately and exclusively to
 
-NO license to use is granted. Without the prior express written permission of the
-rights holder, you may NOT copy, reproduce, distribute, create derivative works of,
-publicly display, transfer, sell, rent, sublicense, or otherwise use this code or
-content, in whole or in part, for any purpose.
+    Moritz Felix Becker.
 
-This repository is provided solely for the internal development, backup and
-deployment of the Eckert · Preisser websites.
+This applies regardless of the fact that the work was created within the scope of an
+engagement / project for Eckert · Preisser. The code may only be modified, reused or
+distributed with the express consent of Moritz Felix Becker.
+
+NO license to use is granted. Without the prior express written permission of Moritz
+Felix Becker, you may NOT copy, reproduce, distribute, modify, create derivative
+works of, publicly display, transfer, sell, rent or sublicense this code, in whole or
+in part, for any purpose.
+
+THIRD-PARTY CONTENT AND TRADEMARKS: Texts, images, trademarks and artworks — in
+particular the marks "ZANKTUM", "ZANKTUM VILLAS", "Z-Cleopatra" and the depicted
+artworks by Margarete Eckert-Preisser — are excluded from the above and remain the
+property of Eckert · Preisser or the respective rights holders.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
-Kontakt / Contact: info@sanctumvillas.com
+Kontakt / Contact: Moritz Felix Becker
