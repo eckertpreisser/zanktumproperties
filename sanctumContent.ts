@@ -192,7 +192,7 @@ const de: SanctumContent = {
     pointsTitle: 'Investment-Eckpunkte',
     products: [
       {
-        name: 'ZANKTUM ALPHA',
+        name: 'ZANKTUM BETA',
         subtitle: 'Premium Innenarchitektur Edition',
         price: '€2.600.640',
         pricePerM2: '€5.557/m²',
@@ -216,7 +216,7 @@ const de: SanctumContent = {
         cta: 'Infos anfordern',
       },
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM ALPHA',
         subtitle: 'Kunstmeisterwerk Edition',
         price: '€4.274.400',
         pricePerM2: '€9.133/m² (mit Kunstobjekten)',
@@ -230,7 +230,7 @@ const de: SanctumContent = {
           'ROI gesamt: +70 %',
         ],
         features: [
-          '468 m² Wohnfläche (wie ALPHA)',
+          '468 m² Wohnfläche (wie BETA)',
           'Ultra-Premium Ausstattung',
           'Kunstobjekte von Margarete Eckert-Preisser',
           'Weltbekannte Künstlerin (78 Jahre)',
@@ -264,7 +264,7 @@ const de: SanctumContent = {
   cleopatra: {
     subtitle: 'Das Wahrzeichen-Kunstwerk',
     title: 'Die Z-Cleopatra',
-    tagline: 'Eine 4,5 Meter hohe Wahrzeichen-Skulptur, die Alanya von der Grenze der VILLA BETA aus begrüßt.',
+    tagline: 'Eine 4,5 Meter hohe Wahrzeichen-Skulptur, die Alanya von der Grenze der VILLA ALPHA aus begrüßt.',
     intro:
       'Die Z-Cleopatra ist nicht nur eine Skulptur, die ein Anwesen schmückt. Sie ist ein monumentales Kunstwerk in der Tradition Christos – eine Transformation klassischer Form durch zeitgenössische Farbe und Material. Entworfen von Margarete Eckert-Preisser und konstruiert von Bilgin Aykurt, ist sie als Wahrzeichen positioniert, sichtbar von Hafen, Burg und Stränden Alanyas – und verkündet ZANKTUM als die Verbindung von Luxus, Kultur und künstlerischer Vision.',
     specsTitle: 'Technische Daten',
@@ -286,7 +286,7 @@ const de: SanctumContent = {
       { icon: '🏛️', title: 'Klassisches Fundament', desc: 'Eine vollständige Cleopatra-Büste ehrt die Antike – transformiert, nicht ausgelöscht, durch zeitgenössische Farbe und den transparenten Schleier der 1930er.' },
     ],
     visibilityTitle: 'Sichtbarkeit als Wahrzeichen',
-    visibilityIntro: 'Die Höhe von 4,5 Metern wurde berechnet, um optimale Sichtbarkeit von wichtigen Aussichtspunkten Alanyas zu gewährleisten, ohne die Architektur der VILLA BETA zu erdrücken.',
+    visibilityIntro: 'Die Höhe von 4,5 Metern wurde berechnet, um optimale Sichtbarkeit von wichtigen Aussichtspunkten Alanyas zu gewährleisten, ohne die Architektur der VILLA ALPHA zu erdrücken.',
     visibilityHead: { point: 'Aussichtspunkt', distance: 'Entfernung', visibility: 'Sichtbarkeit' },
     visibilityRows: [
       { point: 'Hafen Alanya', distance: '8–10 km', visibility: 'Sichtbar' },
@@ -294,7 +294,7 @@ const de: SanctumContent = {
       { point: 'Burg von Alanya', distance: '3 km', visibility: 'Markant' },
       { point: 'Mittelmeer (Boote)', distance: '10–12 km vor der Küste', visibility: 'Ausgezeichnet' },
     ],
-    harmony: 'Proportionale Harmonie: Das Verhältnis von 43 % (4,5 m Skulptur zu 10,5 m Villa) folgt dem Prinzip des Goldenen Schnitts – die Skulptur bereichert die VILLA BETA, ohne sie zu überwältigen.',
+    harmony: 'Proportionale Harmonie: Das Verhältnis von 43 % (4,5 m Skulptur zu 10,5 m Villa) folgt dem Prinzip des Goldenen Schnitts – die Skulptur bereichert die VILLA ALPHA, ohne sie zu überwältigen.',
     visionTitle: 'Künstlerische Vision von Margarete Eckert-Preisser',
     visionText: [
       'Die Z-Cleopatra ist Margaretes monumentale Antwort auf eine einzige Frage: „Was geschieht, wenn wir die Antike in zeitgenössische Farbe hüllen?"',
@@ -400,7 +400,7 @@ const en: SanctumContent = {
     pointsTitle: 'Investment highlights',
     products: [
       {
-        name: 'ZANKTUM ALPHA',
+        name: 'ZANKTUM BETA',
         subtitle: 'Premium Interior Architecture Edition',
         price: '€2,600,640',
         pricePerM2: '€5,557/m²',
@@ -424,7 +424,7 @@ const en: SanctumContent = {
         cta: 'Request information',
       },
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM ALPHA',
         subtitle: 'Art Masterpiece Edition',
         price: '€4,274,400',
         pricePerM2: '€9,133/m² (with art objects)',
@@ -438,7 +438,7 @@ const en: SanctumContent = {
           'Total ROI: +70%',
         ],
         features: [
-          '468 m² living space (like ALPHA)',
+          '468 m² living space (like BETA)',
           'Ultra-premium fittings',
           'Art objects by Margarete Eckert-Preisser',
           'World-renowned artist (age 78)',
@@ -472,7 +472,7 @@ const en: SanctumContent = {
   cleopatra: {
     subtitle: 'The Landmark Artwork',
     title: 'The Z-Cleopatra',
-    tagline: 'A 4.5-metre landmark sculpture that greets Alanya from the boundary of VILLA BETA.',
+    tagline: 'A 4.5-metre landmark sculpture that greets Alanya from the boundary of VILLA ALPHA.',
     intro:
       'The Z-Cleopatra is not merely a sculpture adorning a property. It is a monumental artwork in the Christo tradition — a transformation of classical form through contemporary colour and material. Designed by Margarete Eckert-Preisser and engineered by Bilgin Aykurt, it is positioned as a landmark visible from Alanya\'s harbour, castle and beaches, announcing ZANKTUM as the integration of luxury, culture and artistic vision.',
     specsTitle: 'Technical Specifications',
@@ -494,7 +494,7 @@ const en: SanctumContent = {
       { icon: '🏛️', title: 'Classical Foundation', desc: 'A complete Cleopatra bust honours antiquity — transformed, not erased, by contemporary colour and the transparent 1930s veil.' },
     ],
     visibilityTitle: 'Landmark Visibility',
-    visibilityIntro: 'The 4.5-metre height was calculated to ensure optimal visibility from key vantage points across Alanya without overwhelming the architecture of VILLA BETA.',
+    visibilityIntro: 'The 4.5-metre height was calculated to ensure optimal visibility from key vantage points across Alanya without overwhelming the architecture of VILLA ALPHA.',
     visibilityHead: { point: 'Viewing Point', distance: 'Distance', visibility: 'Visibility' },
     visibilityRows: [
       { point: 'Alanya Harbour', distance: '8–10 km', visibility: 'Visible' },
@@ -502,7 +502,7 @@ const en: SanctumContent = {
       { point: 'Alanya Castle', distance: '3 km', visibility: 'Prominent' },
       { point: 'Mediterranean (boats)', distance: '10–12 km offshore', visibility: 'Excellent' },
     ],
-    harmony: 'Proportional harmony: the 43% ratio (4.5 m sculpture to 10.5 m villa) follows the golden-section principle — the sculpture enhances VILLA BETA without overwhelming it.',
+    harmony: 'Proportional harmony: the 43% ratio (4.5 m sculpture to 10.5 m villa) follows the golden-section principle — the sculpture enhances VILLA ALPHA without overwhelming it.',
     visionTitle: 'Artistic Vision by Margarete Eckert-Preisser',
     visionText: [
       'The Z-Cleopatra is Margarete\'s monumental response to a single question: "What happens when we wrap antiquity in contemporary colour?"',
@@ -793,7 +793,7 @@ const tr: SanctumContent = {
     pointsTitle: 'Yatırım kilometre taşları',
     products: [
       {
-        name: 'ZANKTUM ALPHA',
+        name: 'ZANKTUM BETA',
         subtitle: 'Premium İç Mimari Sürümü',
         price: '€2.600.640',
         pricePerM2: '€5.557/m²',
@@ -817,7 +817,7 @@ const tr: SanctumContent = {
         cta: 'Bilgi isteyin',
       },
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM ALPHA',
         subtitle: 'Sanat Başyapıtı Sürümü',
         price: '€4.274.400',
         pricePerM2: '€9.133/m² (sanat objeleriyle)',
@@ -831,7 +831,7 @@ const tr: SanctumContent = {
           'Toplam ROI: +%70',
         ],
         features: [
-          '468 m² yaşam alanı (ALPHA gibi)',
+          '468 m² yaşam alanı (BETA gibi)',
           'Ultra-premium donanım',
           'Margarete Eckert-Preisser sanat objeleri',
           'Dünyaca tanınan sanatçı (78 yaş)',
@@ -865,7 +865,7 @@ const tr: SanctumContent = {
   cleopatra: {
     subtitle: 'Simge Sanat Eseri',
     title: 'Z-Cleopatra',
-    tagline: 'VILLA BETA sınırından Alanya\'yı selamlayan 4,5 metrelik bir simge heykel.',
+    tagline: 'VILLA ALPHA sınırından Alanya\'yı selamlayan 4,5 metrelik bir simge heykel.',
     intro:
       'Z-Cleopatra yalnızca bir mülkü süsleyen bir heykel değildir. Christo geleneğinde anıtsal bir sanat eseridir; klasik formun çağdaş renk ve malzemeyle dönüşümüdür. Margarete Eckert-Preisser tarafından tasarlanmış, Bilgin Aykurt tarafından mühendisliği yapılmıştır. Alanya limanından, kalesinden ve plajlarından görülebilen bir simge olarak konumlanır ve ZANKTUM\'u lüks, kültür ve sanatsal vizyonun birleşimi olarak ilan eder.',
     specsTitle: 'Teknik Özellikler',
@@ -887,7 +887,7 @@ const tr: SanctumContent = {
       { icon: '🏛️', title: 'Klasik Temel', desc: 'Tam bir Cleopatra büstü antik çağı onurlandırır; çağdaş renk ve 1930\'ların şeffaf peçesiyle silinmeden dönüştürülür.' },
     ],
     visibilityTitle: 'Simge Görünürlüğü',
-    visibilityIntro: '4,5 metrelik yükseklik, VILLA BETA\'nın mimarisini ezmeden Alanya\'nın önemli noktalarından en iyi görünürlüğü sağlayacak şekilde hesaplanmıştır.',
+    visibilityIntro: '4,5 metrelik yükseklik, VILLA ALPHA\'nın mimarisini ezmeden Alanya\'nın önemli noktalarından en iyi görünürlüğü sağlayacak şekilde hesaplanmıştır.',
     visibilityHead: { point: 'Bakış Noktası', distance: 'Mesafe', visibility: 'Görünürlük' },
     visibilityRows: [
       { point: 'Alanya Limanı', distance: '8–10 km', visibility: 'Görünür' },
@@ -895,7 +895,7 @@ const tr: SanctumContent = {
       { point: 'Alanya Kalesi', distance: '3 km', visibility: 'Belirgin' },
       { point: 'Akdeniz (tekneler)', distance: '10–12 km açıkta', visibility: 'Mükemmel' },
     ],
-    harmony: 'Orantısal uyum: %43 oran (4,5 m heykel / 10,5 m villa) altın oran ilkesini izler — heykel VILLA BETA\'yı ezmeden zenginleştirir.',
+    harmony: 'Orantısal uyum: %43 oran (4,5 m heykel / 10,5 m villa) altın oran ilkesini izler — heykel VILLA ALPHA\'yı ezmeden zenginleştirir.',
     visionTitle: 'Margarete Eckert-Preisser\'in Sanatsal Vizyonu',
     visionText: [
       'Z-Cleopatra, Margarete\'nin tek bir soruya verdiği anıtsal yanıttır: "Antik çağı çağdaş renge sardığımızda ne olur?"',

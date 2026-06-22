@@ -499,10 +499,10 @@ const buildVillas = (lang: Language): Villa[] => [
     description: VILLA_CONTENT[lang].alpha.description,
     bedrooms: 3, bathrooms: 4, sqMeters: 468,
     amenities: VILLA_CONTENT[lang].alpha.amenities,
-    heroImages: [`${IMG}/exterior/1.png?v=2`, `${IMG}/exterior/7.png?v=2`],
-    exteriorImages: [`${IMG}/exterior/1.png?v=2`, `${IMG}/exterior/2.png?v=2`, `${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/4.png?v=2`, `${IMG}/exterior/5.png?v=3`, `${IMG}/exterior/6.png?v=2`, `${IMG}/exterior/7.png?v=2`, `${IMG}/exterior/8.png?v=2`, `${IMG}/exterior/9.png?v=2`, `${IMG}/exterior/10.png?v=2`, `${IMG}/exterior/11.png?v=2`, `${IMG}/exterior/12.png?v=2`, `${IMG}/exterior/13.png?v=2`, `${IMG}/exterior/14.png?v=2`],
+    heroImages: [`${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/5.png?v=3`],
+    exteriorImages: [`${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/5.png?v=3`, `${IMG}/exterior/9.png?v=2`, `${IMG}/exterior/10.png?v=2`, `${IMG}/exterior/11.png?v=2`, `${IMG}/exterior/12.png?v=2`, `${IMG}/exterior/13.png?v=2`, `${IMG}/exterior/14.png?v=2`],
     interiorCutawayImage: `${IMG}/exterior/aerial.jpg?v=2`,
-    floors: createFloors(lang),
+    floors: createFloorsVilla2(lang),
   },
   {
     id: 'villa-b', name: 'Villa Beta',
@@ -510,10 +510,10 @@ const buildVillas = (lang: Language): Villa[] => [
     description: VILLA_CONTENT[lang].beta.description,
     bedrooms: 3, bathrooms: 4, sqMeters: 468,
     amenities: VILLA_CONTENT[lang].beta.amenities,
-    heroImages: [`${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/5.png?v=3`],
-    exteriorImages: [`${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/5.png?v=3`, `${IMG}/exterior/9.png?v=2`, `${IMG}/exterior/10.png?v=2`, `${IMG}/exterior/11.png?v=2`, `${IMG}/exterior/12.png?v=2`, `${IMG}/exterior/13.png?v=2`, `${IMG}/exterior/14.png?v=2`],
+    heroImages: [`${IMG}/exterior/1.png?v=2`, `${IMG}/exterior/7.png?v=2`],
+    exteriorImages: [`${IMG}/exterior/1.png?v=2`, `${IMG}/exterior/2.png?v=2`, `${IMG}/exterior/3.png?v=3`, `${IMG}/exterior/4.png?v=2`, `${IMG}/exterior/5.png?v=3`, `${IMG}/exterior/6.png?v=2`, `${IMG}/exterior/7.png?v=2`, `${IMG}/exterior/8.png?v=2`, `${IMG}/exterior/9.png?v=2`, `${IMG}/exterior/10.png?v=2`, `${IMG}/exterior/11.png?v=2`, `${IMG}/exterior/12.png?v=2`, `${IMG}/exterior/13.png?v=2`, `${IMG}/exterior/14.png?v=2`],
     interiorCutawayImage: `${IMG}/exterior/aerial.jpg?v=2`,
-    floors: createFloorsVilla2(lang),
+    floors: createFloors(lang),
   },
 ];
 

@@ -100,22 +100,22 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
 
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
             {c.products.map((p, idx) => {
-              const isBeta = idx === 1;
+              const isPremium = idx === 1;
               return (
                 <motion.div
                   key={p.name} {...fadeUp} transition={{ duration: 0.6, delay: idx * 0.1 }}
                   className={`flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm ring-1 transition-all hover:shadow-2xl hover:-translate-y-1.5 ${
-                    isBeta ? 'ring-gold-400/60' : 'ring-navy-900/10'
+                    isPremium ? 'ring-gold-400/60' : 'ring-navy-900/10'
                   }`}
                 >
                   {/* header */}
-                  <div className={`px-8 py-8 ${isBeta ? 'bg-gradient-to-br from-gold-400 to-gold-500 text-navy-900' : 'bg-gradient-to-br from-navy-900 to-navy-800 text-cream-50'}`}>
+                  <div className={`px-8 py-8 ${isPremium ? 'bg-gradient-to-br from-gold-400 to-gold-500 text-navy-900' : 'bg-gradient-to-br from-navy-900 to-navy-800 text-cream-50'}`}>
                     <div className="flex items-start justify-between gap-4">
                       <div>
                         <div className="font-display text-2xl tracking-[0.15em]">{p.name}</div>
-                        <div className={`mt-1.5 text-sm ${isBeta ? 'text-navy-900/65' : 'text-cream-100/75'}`}>{p.subtitle}</div>
+                        <div className={`mt-1.5 text-sm ${isPremium ? 'text-navy-900/65' : 'text-cream-100/75'}`}>{p.subtitle}</div>
                       </div>
-                      {isBeta && (
+                      {isPremium && (
                         <span className="shrink-0 rounded-full border border-navy-900/30 px-3 py-1 text-[10px] font-semibold uppercase tracking-widest">
                           Art Edition
                         </span>
@@ -125,7 +125,7 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
 
                   <div className="flex flex-1 flex-col p-8">
                     {/* price */}
-                    <div className={`rounded-2xl px-6 py-5 text-center ${isBeta ? 'bg-gold-400/10' : 'bg-cream-100'}`}>
+                    <div className={`rounded-2xl px-6 py-5 text-center ${isPremium ? 'bg-gold-400/10' : 'bg-cream-100'}`}>
                       <div className="text-[11px] uppercase tracking-[0.2em] text-navy-900/45">{c.priceLabel}</div>
                       <div className="mt-1.5 font-serif text-4xl font-medium tabular-nums text-navy-900">{p.price}</div>
                       <div className="mt-1 text-sm text-navy-900/45">{p.pricePerM2}</div>
@@ -157,7 +157,7 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
 
                     <a href="#/contact"
                       className={`group mt-8 flex items-center justify-center gap-2 rounded-full px-6 py-4 text-xs font-bold uppercase tracking-[0.2em] shadow-sm transition-all hover:-translate-y-0.5 ${
-                        isBeta ? 'bg-gold-400 text-navy-900 hover:bg-gold-300' : 'bg-navy-900 text-cream-50 hover:bg-navy-800'
+                        isPremium ? 'bg-gold-400 text-navy-900 hover:bg-gold-300' : 'bg-navy-900 text-cream-50 hover:bg-navy-800'
                       }`}>
                       {p.cta}
                       <ArrowUpRight size={15} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
