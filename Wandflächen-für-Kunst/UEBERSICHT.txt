@@ -1,0 +1,107 @@
+WANDFLAECHEN FUER KUNST - UEBERSICHT
+=====================================
+Erstellt: 2026-02-18
+Projekt: Luxus Villen Alanya - Interieur-Bilder Analyse
+
+Alle gruenen Markierungen zeigen freie Wandflaechen, die sich
+gut fuer das Aufhaengen von Kunstwerken eignen.
+Der Original-Bildpfad steht unten links in jedem Bild.
+
+=====================================
+DATEI -> ORIGINAL AUF WEBSITE -> BESCHREIBUNG
+=====================================
+
+--- DACHGESCHOSS (Attic / 2. OG) ---
+
+01  DG-Wohnzimmer_grosse-Wand-ueber-Sofa
+    Original: /images/attic/livingroom/1.png
+    BESTE FLAECHE! Grosse, freie graue Wand ueber dem L-Sofa.
+    Ideal fuer ein grosses Kunstwerk oder eine Galerie-Anordnung.
+
+13  DG-Wohnzimmer_Wand-neben-Kamin
+    Original: /images/attic/livingroom/4.png
+    Wandflaeche links neben dem TV/Kamin. Platz fuer ein
+    mittelgrosses Werk.
+
+--- UNTERGESCHOSS (Basement / -1) ---
+
+02  UG-Wohnzimmer_Wand-links-ueber-Sofa
+    Original: /images/basement/livingroom/3.png
+    Grosse graue Wand links ueber dem Sofa, neben dem Bogen-Durchgang.
+    Sehr guter Platz fuer ein grosses Bild.
+
+03  UG-Wohnzimmer_Wand-rechts-Essbereich
+    Original: /images/basement/livingroom/2.png
+    Wandflaeche rechts neben der Tuer im Essbereich.
+    Geeignet fuer ein mittelgrosses Werk.
+
+04  UG-Wohnzimmer_Panorama-Wandflaechen
+    Original: /images/basement/livingroom/7.png
+    Zwei Stellen markiert: Wand links neben dem Regal und
+    die grosse Marmorwand rechts.
+
+05  UG-Wohnzimmer_Wand-hinter-Sofa
+    Original: /images/basement/livingroom/5.png
+    Wandflaeche hinter/neben dem Sofa, Richtung Eingang.
+
+06  UG-Eingang_Wand-neben-Aufzug
+    Original: /images/basement/entrance/1.png
+    Schmale Wandflaeche zwischen Aufzug und rundem Spiegel.
+    Fuer ein kleines bis mittleres Kunstwerk.
+
+07  UG-Eingang_Wand-ueber-Treppe
+    Original: /images/basement/entrance/3.png
+    Wand ueber der Treppe links. Hohe Wand, ideal fuer
+    ein hochformatiges Werk.
+
+--- ERDGESCHOSS (Ground Floor / 0) ---
+
+08  EG-Master-Schlafzimmer_Waende-neben-Bett
+    Original: /images/ground-floor/master-bedroom/1.png
+    Zwei schmale Wandflaechen links und rechts vom
+    Marmor-Kopfteil. Fuer kleine symmetrische Werke.
+
+09  EG-Schlafzimmer_Paneel-Wand-links
+    Original: /images/ground-floor/bedroom/2.png
+    Paneel-Wandflaeche zwischen Garderobe und Tuer.
+    Fuer ein mittelgrosses Werk.
+
+10  EG-Schlafzimmer_Wand-Sitzbereich
+    Original: /images/ground-floor/bedroom/1.png
+    Dunkle Paneel-Wand neben dem Sitzbereich.
+    Fuer ein helles, kontrastreiches Kunstwerk.
+
+15  EG-Master-Schlafzimmer_Wand-Schminktisch
+    Original: /images/ground-floor/master-bedroom/4.png
+    Wand neben dem Schminktisch/Paravent.
+    Fuer ein elegantes, kleineres Werk.
+
+--- 1. OBERGESCHOSS (First Floor / 1) ---
+
+11  OG1-Badezimmer_Marmorwand-Badewanne
+    Original: /images/first-floor/bathroom/1.png
+    Weisse Marmorwand ueber der freistehenden Badewanne.
+    Fuer ein feuchtigkeitsbestaendiges Kunstwerk.
+
+12  OG1-Ankleide_Wand-neben-Spiegel
+    Original: /images/first-floor/dressing-room/2.png
+    Wandflaeche links vom Bogen-Spiegel in der Ankleide.
+    Fuer ein dekoratives Werk oder Foto.
+
+14  OG1-Schlafzimmer_grosse-Wand-TV-Seite
+    Original: /images/first-floor/bedroom/2.png
+    Grosse Creme/Marmor-Wandflaeche neben dem TV.
+    Platz fuer ein grosses Werk.
+
+=====================================
+NICHT GEEIGNETE RAEUME (kein freier Wandplatz):
+=====================================
+- Alle Badezimmer (ausser OG1): Komplett gefliest
+- Dressing Room 1+3: Vollstaendig mit Schraenken belegt
+- Attic Kueche: Nur Kuechenschraenke und Geraete
+- Master Bathroom (EG): Kleine geflieste Flaechen
+- Bedroom-Bathroom (EG): Komplett gefliest
+
+HINWEIS: Das 1.OG Schlafzimmer (first-floor/bedroom) hat bereits
+Kunstwerke an den Waenden (abstrakte Bilder mit Gold/Orange-Toenen),
+was zeigt, dass Kunst dort hervorragend wirkt!
