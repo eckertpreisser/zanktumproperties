@@ -56,6 +56,7 @@ const App: React.FC = () => {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const [route, setRoute] = useState<Route>(getRoute);
   const langRef = useRef<HTMLDivElement>(null);
+  const mobileLangRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -79,7 +80,10 @@ const App: React.FC = () => {
   // Close dropdown on outside click
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (langRef.current && !langRef.current.contains(e.target as Node)) {
+      const target = e.target as Node;
+      const outsideDesktop = !langRef.current || !langRef.current.contains(target);
+      const outsideMobile = !mobileLangRef.current || !mobileLangRef.current.contains(target);
+      if (outsideDesktop && outsideMobile) {
         setLangDropdownOpen(false);
       }
     };
@@ -124,7 +128,7 @@ const App: React.FC = () => {
             className="z-50 flex flex-col leading-none"
           >
             <span className="font-display text-xl sm:text-2xl font-bold tracking-[0.2em] uppercase text-gold-400">ZANKTUM</span>
-            <span className={`text-[10px] tracking-[0.3em] uppercase ${navSolid ? 'text-navy-900/60' : 'text-cream-50/70'}`}>Villas</span>
+            <span className={`text-[10px] tracking-[0.3em] uppercase ${navSolid ? 'text-navy-900/60' : 'text-cream-50/70'}`}>Villa</span>
           </a>
 
           {/* Desktop Nav */}
@@ -172,7 +176,7 @@ const App: React.FC = () => {
           {/* Mobile Toggle */}
           <div className="flex md:hidden items-center gap-3 z-50">
             {/* Language Dropdown – Mobile */}
-            <div ref={langDropdownOpen ? undefined : undefined} className="relative">
+            <div ref={mobileLangRef} className="relative">
               <button
                 onClick={() => setLangDropdownOpen(prev => !prev)}
                 className={`flex items-center gap-1 text-xs font-bold uppercase border px-2.5 py-1 rounded-full ${navSolid ? 'text-navy-900 border-navy-900/30' : 'text-white border-white/30'}`}
@@ -254,17 +258,9 @@ const App: React.FC = () => {
         </div>
       )}
 
-      {route === 'artist' && (
-        <div className="pt-24">
-          <ArtistSection lang={lang} />
-        </div>
-      )}
-
-      {route === 'sculpture' && (
-        <div className="pt-24">
-          <CleopatraSection lang={lang} />
-        </div>
-      )}
+      {/* Künstlerin/Skulptur AUSGEBLENDET (gehören zu KALONOROS) — auch aus der Navigation entfernt. Reaktivieren: Kommentar entfernen + Nav-Link zurück. */}
+      {/* {route === 'artist' && (<div className="pt-24"><ArtistSection lang={lang} /></div>)} */}
+      {/* {route === 'sculpture' && (<div className="pt-24"><CleopatraSection lang={lang} /></div>)} */}
 
       {route === 'builder' && (
         <div className="pt-24">

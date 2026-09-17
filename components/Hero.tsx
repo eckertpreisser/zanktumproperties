@@ -15,8 +15,8 @@ const Hero: React.FC<HeroProps> = ({ lang }) => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src={`${import.meta.env.BASE_URL}images/exterior/3.png`}
-          alt="ZANKTUM VILLAS Alanya"
+          src={`${import.meta.env.BASE_URL}images/exterior/8.png`}
+          alt="ZANKTUM Villa Alanya"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-navy-900/40 mix-blend-multiply" />

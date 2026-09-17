@@ -67,6 +67,7 @@ export interface SanctumContent {
     productsTitle: string;
     productsIntro: string;
     priceLabel: string;
+    priceDisclaimer: string;
     pointsTitle: string;
     products: {
       name: string;
@@ -89,7 +90,7 @@ export interface SanctumContent {
     contactEmailLabel: string;
     contactEmail: string;
     contactPhoneLabel: string;
-    contactPhone: string;
+    contactPhones: string[];
     contactAddressLabel: string;
     contactAddress: string;
     footerLine: string;
@@ -189,13 +190,14 @@ const de: SanctumContent = {
     productsTitle: 'Unsere Investmentprodukte',
     productsIntro: 'Zwei exklusive 468 m²-Villen in Bektaş. Beide marktvalidiert, realistische Preise, dokumentierte Renditen.',
     priceLabel: 'Kaufpreis 2026',
+    priceDisclaimer: 'Sämtliche Preisangaben verstehen sich ohne die auf den Abbildungen sichtbaren Möblierungen und Kunstgegenstände.',
     pointsTitle: 'Investment-Eckpunkte',
     products: [
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM Villa',
         subtitle: 'Premium Innenarchitektur Edition',
-        price: '€2.600.640',
-        pricePerM2: '€5.557/m²',
+        price: '€2.500.000',
+        pricePerM2: '€5.342/m²',
         featuresTitle: 'Ausstattung',
         points: [
           'Verkaufspreis 2031: ~€3.800.000',
@@ -215,30 +217,6 @@ const de: SanctumContent = {
         ],
         cta: 'Infos anfordern',
       },
-      {
-        name: 'ZANKTUM ALPHA',
-        subtitle: 'Kunstmeisterwerk Edition',
-        price: '€4.274.400',
-        pricePerM2: '€9.133/m² (mit Kunstobjekten)',
-        featuresTitle: 'Besonderheiten',
-        points: [
-          'Verkaufspreis 2031: ~€6.411.000',
-          'Wertsteigerung: €2.137.000 (+50 %)',
-          'CAGR: +8,3 %',
-          'Mietrendite: 2,8 % p.a. (€119.700)',
-          '6-Jahres Gewinn: €2.257.000',
-          'ROI gesamt: +70 %',
-        ],
-        features: [
-          '468 m² Wohnfläche (wie BETA)',
-          'Ultra-Premium Ausstattung',
-          'Kunstobjekte von Margarete Eckert-Preisser',
-          'Weltbekannte Künstlerin (78 Jahre)',
-          'Legacy-Kunstsammlung',
-          'Wertstabilität durch Kunstobjekte',
-        ],
-        cta: 'Exklusive Anfrage',
-      },
     ],
     marketTitle: 'Marktanalyse: Bektaş ist unterbewertet',
     marketIntro: 'Bektaş wird zum nächsten Belek. Heute noch 21 % unter Belek bewertet – in 3 Jahren 30–40 % teurer.',
@@ -254,9 +232,9 @@ const de: SanctumContent = {
     contactTitle: 'Exklusive Beratung',
     contactIntro: 'Interessiert? Unsere Experten beraten Sie gerne.',
     contactEmailLabel: 'E-Mail',
-    contactEmail: 'info@sanctumvillas.com',
+    contactEmail: 'contact@zanktum.com',
     contactPhoneLabel: 'Telefon',
-    contactPhone: '+90 (242) 511 0000',
+    contactPhones: ['+90 533 741 69 14', '+49 157 8903373'],
     contactAddressLabel: 'Adresse',
     contactAddress: 'Bektaş, Alanya 07400, Türkei',
     footerLine: 'ZANKTUM VILLAS | Bektaş, Alanya | Marktvalidierte Investitionsanalyse',
@@ -302,7 +280,7 @@ const de: SanctumContent = {
     ],
     quote: 'Schönheit ist nicht nur innen. Schönheit ist öffentlich. Schönheit ist jetzt.',
   },
-  nav: { why: 'Warum Zanktum', villas: 'Villen', artist: 'Künstler', builder: 'Baumeister' },
+  nav: { why: 'Warum Zanktum', villas: 'Villa', artist: 'Künstler', builder: 'Baumeister' },
 };
 
 const en: SanctumContent = {
@@ -397,13 +375,14 @@ const en: SanctumContent = {
     productsTitle: 'Our investment products',
     productsIntro: 'Two exclusive 468 m² villas in Bektaş. Both market-validated, realistic prices, documented returns.',
     priceLabel: 'Purchase price 2026',
+    priceDisclaimer: 'All prices are exclusive of the furnishings and artworks shown in the images.',
     pointsTitle: 'Investment highlights',
     products: [
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM Villa',
         subtitle: 'Premium Interior Architecture Edition',
-        price: '€2,600,640',
-        pricePerM2: '€5,557/m²',
+        price: '€2,500,000',
+        pricePerM2: '€5,342/m²',
         featuresTitle: 'Features',
         points: [
           'Sale price 2031: ~€3,800,000',
@@ -423,30 +402,6 @@ const en: SanctumContent = {
         ],
         cta: 'Request information',
       },
-      {
-        name: 'ZANKTUM ALPHA',
-        subtitle: 'Art Masterpiece Edition',
-        price: '€4,274,400',
-        pricePerM2: '€9,133/m² (with art objects)',
-        featuresTitle: 'Distinctive features',
-        points: [
-          'Sale price 2031: ~€6,411,000',
-          'Appreciation: €2,137,000 (+50%)',
-          'CAGR: +8.3%',
-          'Rental yield: 2.8% p.a. (€119,700)',
-          '6-year profit: €2,257,000',
-          'Total ROI: +70%',
-        ],
-        features: [
-          '468 m² living space (like BETA)',
-          'Ultra-premium fittings',
-          'Art objects by Margarete Eckert-Preisser',
-          'World-renowned artist (age 78)',
-          'Legacy art collection',
-          'Value stability through art objects',
-        ],
-        cta: 'Exclusive enquiry',
-      },
     ],
     marketTitle: 'Market analysis: Bektaş is undervalued',
     marketIntro: 'Bektaş is becoming the next Belek. Still 21% below Belek today – 30–40% more expensive in 3 years.',
@@ -462,9 +417,9 @@ const en: SanctumContent = {
     contactTitle: 'Exclusive consultation',
     contactIntro: 'Interested? Our experts will be glad to advise you.',
     contactEmailLabel: 'Email',
-    contactEmail: 'info@sanctumvillas.com',
+    contactEmail: 'contact@zanktum.com',
     contactPhoneLabel: 'Phone',
-    contactPhone: '+90 (242) 511 0000',
+    contactPhones: ['+90 533 741 69 14', '+49 157 8903373'],
     contactAddressLabel: 'Address',
     contactAddress: 'Bektaş, Alanya 07400, Turkey',
     footerLine: 'ZANKTUM VILLAS | Bektaş, Alanya | Market-validated investment analysis',
@@ -510,7 +465,7 @@ const en: SanctumContent = {
     ],
     quote: 'Beauty is not just inside. Beauty is public. Beauty is now.',
   },
-  nav: { why: 'Why Zanktum', villas: 'Villas', artist: 'Artist', builder: 'Builder' },
+  nav: { why: 'Why Zanktum', villas: 'Villa', artist: 'Artist', builder: 'Builder' },
 };
 
 // Compact translations for the remaining languages. We translate the headings,
@@ -545,7 +500,7 @@ const ar: SanctumContent = compactFromEn({
     thesisTitle: 'أطروحة بكتاش',
     contactTitle: 'استشارة حصرية',
   },
-  nav: { why: 'لماذا زانكتم', villas: 'الفيلات', artist: 'الفنانة', builder: 'البنّاء' },
+  nav: { why: 'لماذا زانكتم', villas: 'الفيلا', artist: 'الفنانة', builder: 'البنّاء' },
 });
 
 const ru: SanctumContent = compactFromEn({
@@ -575,7 +530,7 @@ const ru: SanctumContent = compactFromEn({
     thesisTitle: 'Тезис о Бекташе',
     contactTitle: 'Эксклюзивная консультация',
   },
-  nav: { why: 'Почему Zanktum', villas: 'Виллы', artist: 'Художница', builder: 'Строитель' },
+  nav: { why: 'Почему Zanktum', villas: 'Вилла', artist: 'Художница', builder: 'Строитель' },
 });
 
 const uk: SanctumContent = compactFromEn({
@@ -605,7 +560,7 @@ const uk: SanctumContent = compactFromEn({
     thesisTitle: 'Теза про Бекташ',
     contactTitle: 'Ексклюзивна консультація',
   },
-  nav: { why: 'Чому Zanktum', villas: 'Вілли', artist: 'Художниця', builder: 'Будівничий' },
+  nav: { why: 'Чому Zanktum', villas: 'Вілла', artist: 'Художниця', builder: 'Будівничий' },
 });
 
 const zh: SanctumContent = compactFromEn({
@@ -665,7 +620,7 @@ const es: SanctumContent = compactFromEn({
     thesisTitle: 'La tesis de Bektaş',
     contactTitle: 'Asesoría exclusiva',
   },
-  nav: { why: 'Por qué Zanktum', villas: 'Villas', artist: 'Artista', builder: 'Constructor' },
+  nav: { why: 'Por qué Zanktum', villas: 'Villa', artist: 'Artista', builder: 'Constructor' },
 });
 
 const fr: SanctumContent = compactFromEn({
@@ -695,7 +650,7 @@ const fr: SanctumContent = compactFromEn({
     thesisTitle: 'La thèse de Bektaş',
     contactTitle: 'Conseil exclusif',
   },
-  nav: { why: 'Pourquoi Zanktum', villas: 'Villas', artist: 'Artiste', builder: 'Bâtisseur' },
+  nav: { why: 'Pourquoi Zanktum', villas: 'Villa', artist: 'Artiste', builder: 'Bâtisseur' },
 });
 
 const tr: SanctumContent = {
@@ -790,13 +745,14 @@ const tr: SanctumContent = {
     productsTitle: 'Yatırım ürünlerimiz',
     productsIntro: 'Bektaş\'ta iki özel 468 m² villa. İkisi de piyasa doğrulamalı, gerçekçi fiyatlar, belgelenmiş getiriler.',
     priceLabel: 'Satın alma fiyatı 2026',
+    priceDisclaimer: 'Tüm fiyatlara görsellerde yer alan mobilyalar ve sanat eserleri dahil değildir.',
     pointsTitle: 'Yatırım kilometre taşları',
     products: [
       {
-        name: 'ZANKTUM BETA',
+        name: 'ZANKTUM Villa',
         subtitle: 'Premium İç Mimari Sürümü',
-        price: '€2.600.640',
-        pricePerM2: '€5.557/m²',
+        price: '€2.500.000',
+        pricePerM2: '€5.342/m²',
         featuresTitle: 'Donanım',
         points: [
           'Satış fiyatı 2031: ~€3.800.000',
@@ -816,30 +772,6 @@ const tr: SanctumContent = {
         ],
         cta: 'Bilgi isteyin',
       },
-      {
-        name: 'ZANKTUM ALPHA',
-        subtitle: 'Sanat Başyapıtı Sürümü',
-        price: '€4.274.400',
-        pricePerM2: '€9.133/m² (sanat objeleriyle)',
-        featuresTitle: 'Özellikler',
-        points: [
-          'Satış fiyatı 2031: ~€6.411.000',
-          'Değer artışı: €2.137.000 (+%50)',
-          'CAGR: +%8,3',
-          'Kira getirisi: yıllık %2,8 (€119.700)',
-          '6 yıllık kâr: €2.257.000',
-          'Toplam ROI: +%70',
-        ],
-        features: [
-          '468 m² yaşam alanı (BETA gibi)',
-          'Ultra-premium donanım',
-          'Margarete Eckert-Preisser sanat objeleri',
-          'Dünyaca tanınan sanatçı (78 yaş)',
-          'Miras sanat koleksiyonu',
-          'Sanat objeleriyle değer istikrarı',
-        ],
-        cta: 'Özel talep',
-      },
     ],
     marketTitle: 'Piyasa analizi: Bektaş değerinin altında',
     marketIntro: 'Bektaş yeni Belek oluyor. Bugün hâlâ Belek\'in %21 altında – 3 yıl içinde %30–40 daha pahalı.',
@@ -855,9 +787,9 @@ const tr: SanctumContent = {
     contactTitle: 'Özel danışmanlık',
     contactIntro: 'İlgileniyor musunuz? Uzmanlarımız size memnuniyetle danışmanlık sunar.',
     contactEmailLabel: 'E-posta',
-    contactEmail: 'info@sanctumvillas.com',
+    contactEmail: 'contact@zanktum.com',
     contactPhoneLabel: 'Telefon',
-    contactPhone: '+90 (242) 511 0000',
+    contactPhones: ['+90 533 741 69 14', '+49 157 8903373'],
     contactAddressLabel: 'Adres',
     contactAddress: 'Bektaş, Alanya 07400, Türkiye',
     footerLine: 'ZANKTUM VILLAS | Bektaş, Alanya | Piyasa doğrulamalı yatırım analizi',
@@ -903,7 +835,7 @@ const tr: SanctumContent = {
     ],
     quote: 'Güzellik yalnızca içeride değildir. Güzellik kamusaldır. Güzellik şimdidir.',
   },
-  nav: { why: 'Neden Zanktum', villas: 'Villalar', artist: 'Sanatçı', builder: 'İnşaatçı' },
+  nav: { why: 'Neden Zanktum', villas: 'Villa', artist: 'Sanatçı', builder: 'İnşaatçı' },
 };
 
 const ZANKTUM: Record<Language, SanctumContent> = { en, de, ar, ru, uk, zh, es, fr, tr };

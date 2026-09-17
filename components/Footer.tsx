@@ -28,7 +28,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
         <div>
           <div className="mb-6 flex flex-col leading-none">
             <span className="font-display text-2xl font-bold tracking-[0.2em] uppercase text-gold-400">ZANKTUM</span>
-            <span className="text-xs tracking-[0.3em] uppercase text-white/60 mt-1">Villas</span>
+            <span className="text-xs tracking-[0.3em] uppercase text-white/60 mt-1">Villa</span>
           </div>
           <p className="text-sm text-cream-100/60 leading-loose">
             {content.desc}
@@ -39,7 +39,7 @@ const Footer: React.FC<FooterProps> = ({ lang }) => {
           <h3 className="font-display text-xs tracking-widest uppercase mb-6 text-gold-400">{content.contact}</h3>
           <ul className="space-y-4 text-sm text-cream-100/80">
             <li>+49 (0) 7147 960210</li>
-            <li>kontakt@eckertpreisser.de</li>
+            <li>contact@zanktum.com</li>
             <li>Im Burgstall 25</li>
             <li>74343 Sachsenheim</li>
           </ul>

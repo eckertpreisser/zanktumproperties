@@ -211,7 +211,7 @@ const ImpressumPage: React.FC<{ lang: Language }> = ({ lang }) => {
       <Section title={g(i.contact, lang)}>
         <Card>
           <p>{g(i.phone, lang)}: +49 (0) 7147 960210</p>
-          <p>E-Mail: kontakt@eckertpreisser.de</p>
+          <p>E-Mail: contact@zanktum.com</p>
           <p>{g(i.website, lang)}: www.eckertpreisser.de</p>
         </Card>
       </Section>
@@ -334,7 +334,7 @@ const DatenschutzPage: React.FC<{ lang: Language }> = ({ lang }) => {
             <p className="font-semibold text-white mt-2">ECKERTPREISSER Personalberatung Partnerschaft</p>
             <p>Im Burgstall 25 · 74343 Sachsenheim · Deutschland</p>
             <p className="mt-2">{g(p.phone, lang)}: +49 (0) 7147 960210</p>
-            <p>E-Mail: kontakt@eckertpreisser.de</p>
+            <p>E-Mail: contact@zanktum.com</p>
           </Card>
         </SubSection>
         <SubSection title={g(p.s3c, lang)}>
@@ -498,7 +498,7 @@ const CookiePolicyPage: React.FC<{ lang: Language }> = ({ lang }) => {
       <Section title={g(c.further, lang)}>
         <Card>
           <p>{g(c.furtherT, lang)}</p>
-          <p className="mt-2">E-Mail: kontakt@eckertpreisser.de</p>
+          <p className="mt-2">E-Mail: contact@zanktum.com</p>
           <p>{g(T.impressum.phone, lang)}: +49 (0) 7147 960210</p>
           <p className="mt-3">{g(c.furtherPrivacy, lang)}{' '}
             <a href="#/datenschutz" className="text-gold-400 hover:underline">{g(c.privacyPolicyLink, lang)}</a>.

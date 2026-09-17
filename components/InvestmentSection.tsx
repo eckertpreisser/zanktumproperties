@@ -9,6 +9,12 @@ import {
 
 interface Props { lang: Language; }
 
+// Eckert, 2026-08-13 (in-person w/ Moritz): hide the speculative ROI/resale
+// "Investment-Eckpunkte" list under the price card — keep only the fixed
+// price visible. Data stays intact in sanctumContent.ts; flip this back to
+// true to reinstate it later.
+const SHOW_INVESTMENT_POINTS = false;
+
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
@@ -98,6 +104,11 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
         <div className="mx-auto max-w-6xl">
           <SectionHeader eyebrow={c.eyebrow} title={c.productsTitle} intro={c.productsIntro} />
 
+          <div className="mx-auto mb-10 flex max-w-3xl items-start gap-3 rounded-xl border border-gold-500/40 bg-gold-400/10 px-6 py-4 text-center sm:text-left">
+            <ShieldCheck size={18} strokeWidth={1.5} className="mt-0.5 hidden shrink-0 text-gold-600 sm:block" />
+            <p className="mx-auto text-sm font-medium leading-relaxed text-navy-900/80 sm:mx-0">{c.priceDisclaimer}</p>
+          </div>
+
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
             {c.products.map((p, idx) => {
               const isPremium = idx === 1;
@@ -132,18 +143,22 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
                     </div>
 
                     {/* key figures */}
-                    <div className="mt-7 text-[11px] uppercase tracking-[0.2em] text-navy-900/45">{c.pointsTitle}</div>
-                    <dl className="mt-3 divide-y divide-navy-900/8">
-                      {p.points.map(pt => {
-                        const [label, value] = splitPoint(pt);
-                        return (
-                          <div key={pt} className="flex items-center justify-between gap-4 py-2.5">
-                            <dt className="text-sm text-navy-900/55 font-light">{label}</dt>
-                            <dd className="text-right text-sm font-semibold tabular-nums text-navy-900">{value}</dd>
-                          </div>
-                        );
-                      })}
-                    </dl>
+                    {SHOW_INVESTMENT_POINTS && (
+                      <>
+                        <div className="mt-7 text-[11px] uppercase tracking-[0.2em] text-navy-900/45">{c.pointsTitle}</div>
+                        <dl className="mt-3 divide-y divide-navy-900/8">
+                          {p.points.map(pt => {
+                            const [label, value] = splitPoint(pt);
+                            return (
+                              <div key={pt} className="flex items-center justify-between gap-4 py-2.5">
+                                <dt className="text-sm text-navy-900/55 font-light">{label}</dt>
+                                <dd className="text-right text-sm font-semibold tabular-nums text-navy-900">{value}</dd>
+                              </div>
+                            );
+                          })}
+                        </dl>
+                      </>
+                    )}
 
                     {/* features */}
                     <div className="mt-7 text-[11px] uppercase tracking-[0.2em] text-navy-900/45">{p.featuresTitle}</div>
@@ -232,13 +247,17 @@ const InvestmentSection: React.FC<Props> = ({ lang }) => {
               <div className="mt-5 text-[11px] uppercase tracking-[0.25em] text-cream-100/50">{c.contactEmailLabel}</div>
               <div className="mt-2 text-cream-50 group-hover:text-gold-400 transition-colors break-words">{c.contactEmail}</div>
             </a>
-            <a href={`tel:${c.contactPhone.replace(/[^+\d]/g, '')}`} className="group rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-sm transition-all hover:bg-white/10 hover:-translate-y-1">
+            <div className="group rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-sm transition-all hover:bg-white/10 hover:-translate-y-1">
               <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-gold-400/15">
                 <Phone size={22} strokeWidth={1.5} className="text-gold-400" />
               </span>
               <div className="mt-5 text-[11px] uppercase tracking-[0.25em] text-cream-100/50">{c.contactPhoneLabel}</div>
-              <div className="mt-2 text-cream-50 group-hover:text-gold-400 transition-colors">{c.contactPhone}</div>
-            </a>
+              <div className="mt-2 space-y-1">
+                {c.contactPhones.map((phone) => (
+                  <a key={phone} href={`tel:${phone.replace(/[^+\d]/g, '')}`} className="block text-cream-50 hover:text-gold-400 transition-colors">{phone}</a>
+                ))}
+              </div>
+            </div>
             <div className="rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur-sm">
               <span className="inline-flex h-14 w-14 items-center justify-center rounded-full bg-gold-400/15">
                 <MapPin size={22} strokeWidth={1.5} className="text-gold-400" />

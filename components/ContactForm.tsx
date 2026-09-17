@@ -143,7 +143,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ lang }) => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          to: 'kontakt@eckertpreisser.de',
+          to: 'contact@zanktum.com',
           subject: `Alanya Villas - Contact: ${form.subject}`,
           body: `From: ${form.name} (${form.email})\n\nMessage:\n${form.message}`,
           html: false,

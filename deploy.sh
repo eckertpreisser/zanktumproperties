@@ -45,7 +45,11 @@ echo "==> 3/5  Upload -> mutlucagri.com"
 rsync "${RSYNC_OPTS[@]}" -e "$RSH" dist_mutlucagri/ "$REMOTE:$DOCROOT/mutlucagri/"
 
 echo "==> 4/5  Upload -> zanktum.com (gleicher Base-/-Build wie mutlucagri)"
-rsync "${RSYNC_OPTS[@]}" -e "$RSH" dist_mutlucagri/ "$REMOTE:$DOCROOT/zanktum/"
+# WICHTIG: 'voting/', 'kampagne/' und 'api/' ausschliessen — die Abstimmungs-Unterseite
+# (zanktum.com/voting), die Kleopatra-Kampagne (zanktum.com/kampagne) und der
+# Kontaktformular-Endpunkt (zanktum.com/api) liegen separat in httpdocs/zanktum/
+# und duerfen vom --delete NICHT geloescht werden.
+rsync "${RSYNC_OPTS[@]}" --exclude='voting' --exclude='welt' --exclude='presse' --exclude='kampagne' --exclude='api' -e "$RSH" dist_mutlucagri/ "$REMOTE:$DOCROOT/zanktum/"
 
 echo "==> 5/5  Upload -> eckertpreisser.de/alanya/"
 rsync "${RSYNC_OPTS[@]}" --exclude='vite.svg' -e "$RSH" dist_alanya/ "$REMOTE:$DOCROOT/alanya/"
